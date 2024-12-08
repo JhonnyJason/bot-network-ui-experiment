@@ -51,8 +51,8 @@ importers:
         specifier: ^0.0.6
         version: 0.0.6
       secret-manager-crypto-utils:
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       stylus:
         specifier: ^0.64.0
         version: 0.64.0
@@ -63,8 +63,8 @@ importers:
         specifier: ^0.0.8
         version: 0.0.8
       thingy-crypto-node:
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       thingy-debug:
         specifier: ^0.0.1
         version: 0.0.1
@@ -75,14 +75,14 @@ importers:
         specifier: ^0.0.4
         version: 0.0.4
       thingy-post-rpc-client:
-        specifier: ^0.0.6
-        version: 0.0.6
+        specifier: ^0.0.7
+        version: 0.0.7
       thingy-rpc-authmaster-client:
         specifier: ^0.0.9
         version: 0.0.9
       thingy-session-utils:
-        specifier: ^0.0.5
-        version: 0.0.5
+        specifier: ^0.0.6
+        version: 0.0.6
       thingymodulecreate:
         specifier: ^0.1.8
         version: 0.1.8
@@ -90,8 +90,8 @@ importers:
         specifier: ^0.1.2
         version: 0.1.2
       validatabletimestamp:
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.4
+        version: 0.0.4
       vanillaqr:
         specifier: ^1.0.0
         version: 1.0.0
@@ -2126,8 +2126,8 @@ packages:
   secret-manager-crypto-utils@0.1.1:
     resolution: {integrity: sha512-vG4CkGs44bxn4AFAodwCUKe54bFKRRM8nTunqzr1zWAA659l+rMJMQItxHq5nTXnyGIS+vnqGkjyeBZZBRfZFg==}
 
-  secret-manager-crypto-utils@0.3.0:
-    resolution: {integrity: sha512-CRdXxw5sNhEdnpJyRDopzQzplg59CdEDEjGA5OucETZz6r8H2oVIzTRcftKHUWmOib9lhxYoJIHewj0wXXttlA==}
+  secret-manager-crypto-utils@0.3.1:
+    resolution: {integrity: sha512-w4usWFH1r4ucR8dZBk81kmBo3ZOouU6a+/fZEaOFaP22icFapbelf1f5M1QwcbZ0AwPDeWfwvq8DfNOr0PAQyg==}
 
   semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
@@ -2412,8 +2412,8 @@ packages:
   thingy-byte-utils@0.0.8:
     resolution: {integrity: sha512-m9+aSv0XrU1g6Da61Qq0ZnyflSYx1/uWfD98UFziOV4WMrEzE5eHTjXGhxhFRzauL3EkwujZZJbOBxj8PzHyAg==}
 
-  thingy-crypto-node@0.0.1:
-    resolution: {integrity: sha512-jrANbtDHA3JcPI04xP5AzCZrk/GKSwbk+/xe3S7QAk0MfmlaZFX5b1v1sh7N8auI6vMi4gxpEdltIzEgq5oUfA==}
+  thingy-crypto-node@0.0.2:
+    resolution: {integrity: sha512-wFpB8evuisJbZ/ZZmYEkcvfwJs5Ls16Co4G9wl4AQg4h8jZjN+b0a1Kj+X+2nEDsySp+iTO68xJAznjIpf0J3w==}
 
   thingy-debug@0.0.1:
     resolution: {integrity: sha512-PBIOqHt1KXDsMENJip89IwzZhc8vhv88rp7aw89O+hfSQA5QMqOxAjaILGmPK2H+yeePyTuTBWqTfHCWW6vNDQ==}
@@ -2428,11 +2428,17 @@ packages:
   thingy-post-rpc-client@0.0.6:
     resolution: {integrity: sha512-Sk5DCZPCqyL1pDTUT5QynhugfYV0FJEyzEZqU8p83QCDO/xBL4JrhWsg24EmohUuwZzv0umpIAEwaAk6iq2hNQ==}
 
+  thingy-post-rpc-client@0.0.7:
+    resolution: {integrity: sha512-BAA3U7OF+ot9yW12rurEJLT8XPony197i0HAOVsYe5zfbJHRkorzUSBZUbpIGQ1QO+LuLASLaqi9ANPdY/V9sw==}
+
   thingy-rpc-authmaster-client@0.0.9:
     resolution: {integrity: sha512-W9ecgcIxSf6BKcMZL/l4sJFms0pw8L8WziU3n/1fJzyCYBhY7vtxib6RFkTxYBN7VbSYC87iQZpnuA8WvWvFeQ==}
 
   thingy-session-utils@0.0.5:
     resolution: {integrity: sha512-LkZc5gT6NAhUG4WxtchygmPDSx2oukV2cQ63n3+Zym1tAGjUsUe2bg6pJB2++afA7pKbW64nZwgMYTSa8OAkaA==}
+
+  thingy-session-utils@0.0.6:
+    resolution: {integrity: sha512-YarpuDDO2wH34LLNI9jnHSMJeg8/oqgG7N37ZkAX4kCasKKHuBAnz5EOaAEU0DmUEnIi0f2KjCbVYKIXZllPIg==}
 
   thingymodulecreate@0.1.8:
     resolution: {integrity: sha512-NJOJbhAYYCqBg3eyC5HkrfOnndGUFaLD278lKnpB6EcaY+zIyMNYL/q1/EYofhe4JB848G3WgX2Xb+zWd67aRg==}
@@ -2605,6 +2611,9 @@ packages:
 
   validatabletimestamp@0.0.1:
     resolution: {integrity: sha512-vCCYC4oGC3FQdl2xHBdKSixKNWzzNfhugG0sucPLnO7lK7H9HHBy60p9cc10yotZRErc+SWAPJij7FZAbQ8eQA==}
+
+  validatabletimestamp@0.0.4:
+    resolution: {integrity: sha512-HS6xBuk9RYfZ9nEBjimEXY+XYnR6xP0jK9MsdhEtxIcfnrGmxFhg3DMZdZJ7btG2vPDGltK248Jg3rK7PTeFsg==}
 
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
@@ -5063,7 +5072,7 @@ snapshots:
       '@noble/ed25519': 1.7.3
       thingy-byte-utils: 0.0.7
 
-  secret-manager-crypto-utils@0.3.0:
+  secret-manager-crypto-utils@0.3.1:
     dependencies:
       '@noble/ed25519': 2.1.0
       thingy-byte-utils: 0.0.8
@@ -5414,9 +5423,9 @@ snapshots:
 
   thingy-byte-utils@0.0.8: {}
 
-  thingy-crypto-node@0.0.1:
+  thingy-crypto-node@0.0.2:
     dependencies:
-      secret-manager-crypto-utils: 0.3.0
+      secret-manager-crypto-utils: 0.3.1
 
   thingy-debug@0.0.1: {}
 
@@ -5432,10 +5441,18 @@ snapshots:
   thingy-post-rpc-client@0.0.6:
     dependencies:
       feistelled-reduced-aes-core: 0.0.1
-      secret-manager-crypto-utils: 0.3.0
+      secret-manager-crypto-utils: 0.3.1
       thingy-byte-utils: 0.0.8
       thingy-session-utils: 0.0.5
       validatabletimestamp: 0.0.1
+
+  thingy-post-rpc-client@0.0.7:
+    dependencies:
+      feistelled-reduced-aes-core: 0.0.1
+      secret-manager-crypto-utils: 0.3.1
+      thingy-byte-utils: 0.0.8
+      thingy-session-utils: 0.0.6
+      validatabletimestamp: 0.0.4
 
   thingy-rpc-authmaster-client@0.0.9:
     dependencies:
@@ -5443,7 +5460,12 @@ snapshots:
 
   thingy-session-utils@0.0.5:
     dependencies:
-      secret-manager-crypto-utils: 0.3.0
+      secret-manager-crypto-utils: 0.3.1
+      thingy-byte-utils: 0.0.8
+
+  thingy-session-utils@0.0.6:
+    dependencies:
+      secret-manager-crypto-utils: 0.3.1
       thingy-byte-utils: 0.0.8
 
   thingymodulecreate@0.1.8:
@@ -5618,6 +5640,8 @@ snapshots:
   uuid@3.4.0: {}
 
   validatabletimestamp@0.0.1: {}
+
+  validatabletimestamp@0.0.4: {}
 
   validate-npm-package-license@3.0.4:
     dependencies:
