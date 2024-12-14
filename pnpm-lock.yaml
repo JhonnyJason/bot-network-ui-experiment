@@ -47,9 +47,6 @@ importers:
       qr-scanner:
         specifier: ^1.4.2
         version: 1.4.2
-      secret-manager-client:
-        specifier: ^0.0.6
-        version: 0.0.6
       secret-manager-crypto-utils:
         specifier: ^0.3.1
         version: 0.3.1
@@ -71,9 +68,6 @@ importers:
       thingy-module-gen:
         specifier: ^0.1.6
         version: 0.1.6
-      thingy-network-base:
-        specifier: ^0.0.4
-        version: 0.0.4
       thingy-post-rpc-client:
         specifier: ^0.0.7
         version: 0.0.7
@@ -89,6 +83,9 @@ importers:
       thingysync:
         specifier: ^0.1.2
         version: 0.1.2
+      uplot:
+        specifier: ^1.6.31
+        version: 1.6.31
       validatabletimestamp:
         specifier: ^0.0.4
         version: 0.0.4
@@ -143,9 +140,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
-
-  '@noble/ed25519@1.7.3':
-    resolution: {integrity: sha512-iR8GBkDt0Q3GyaVcIu7mSsVIqnFbkbRzGLWlvhwunacoLwt4J3swfKhfaM6rN6WY+TBGoYT1GtT1mIh2/jGbRQ==}
 
   '@noble/ed25519@2.1.0':
     resolution: {integrity: sha512-KM4qTyXPinyCgMzeYJH/UudpdL+paJXtY3CHtHYZQtBkS8MZoPr4rOikZllIutJe0d06QDQKisyn02gxZ8TcQA==}
@@ -2120,12 +2114,6 @@ packages:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
     engines: {node: '>= 10.13.0'}
 
-  secret-manager-client@0.0.6:
-    resolution: {integrity: sha512-fPYH6M8J26ZMxMgT5eKNaOoe1agqZSjVeaQXnmpjUuKso7hUIwpURhJ4A9DmrjGba1s2BPO7KgxPhXopIJq1Ow==}
-
-  secret-manager-crypto-utils@0.1.1:
-    resolution: {integrity: sha512-vG4CkGs44bxn4AFAodwCUKe54bFKRRM8nTunqzr1zWAA659l+rMJMQItxHq5nTXnyGIS+vnqGkjyeBZZBRfZFg==}
-
   secret-manager-crypto-utils@0.3.1:
     resolution: {integrity: sha512-w4usWFH1r4ucR8dZBk81kmBo3ZOouU6a+/fZEaOFaP22icFapbelf1f5M1QwcbZ0AwPDeWfwvq8DfNOr0PAQyg==}
 
@@ -2406,9 +2394,6 @@ packages:
     resolution: {integrity: sha512-jth7wTJ3i3px8uh93haM13deSwkZoiWYymHyUsTceOIiYAk53nbywUqo6wTiLaya5qid17w6KDte4xLpxL9SsA==}
     hasBin: true
 
-  thingy-byte-utils@0.0.7:
-    resolution: {integrity: sha512-2ghUqTQI96WfuSkR+CuErQbVZglvPvTdZ4IyHB1O9tF7tdmsxYsSSs/K3Ax5U0TB4h9U4oslak/xps3mHpp2NA==}
-
   thingy-byte-utils@0.0.8:
     resolution: {integrity: sha512-m9+aSv0XrU1g6Da61Qq0ZnyflSYx1/uWfD98UFziOV4WMrEzE5eHTjXGhxhFRzauL3EkwujZZJbOBxj8PzHyAg==}
 
@@ -2421,9 +2406,6 @@ packages:
   thingy-module-gen@0.1.6:
     resolution: {integrity: sha512-/YvGbX5H9uBmQTnlMF4i5UyWu46scAhUF9XTNzlhvIRrEsDCVyhS1afNlC2+qlQ7jgNeWNl2boexDK6e9vGHDA==}
     hasBin: true
-
-  thingy-network-base@0.0.4:
-    resolution: {integrity: sha512-HvwJdiaUYUuPiP7GhtwCY01UJq9BAyddC4NDFFHiBcMjflT+/RlbytS4L8ZVwQih3XzZfOEIprE4LLYJ0eU17w==}
 
   thingy-post-rpc-client@0.0.6:
     resolution: {integrity: sha512-Sk5DCZPCqyL1pDTUT5QynhugfYV0FJEyzEZqU8p83QCDO/xBL4JrhWsg24EmohUuwZzv0umpIAEwaAk6iq2hNQ==}
@@ -2590,6 +2572,9 @@ packages:
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
+
+  uplot@1.6.31:
+    resolution: {integrity: sha512-sQZqSwVCbJGnFB4IQjQYopzj5CoTZJ4Br1fG/xdONimqgHmsacvCjNesdGDypNKFbrhLGIeshYhy89FxPF+H+w==}
 
   upper-case@1.1.3:
     resolution: {integrity: sha512-WRbjgmYzgXkCV7zNVpy5YgrHgbBv126rMALQQMrmzOVC4GM2waQ9x7xtm8VU+1yF2kWyPzI9zbZ48n4vSxwfSA==}
@@ -2827,8 +2812,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
-
-  '@noble/ed25519@1.7.3': {}
 
   '@noble/ed25519@2.1.0': {}
 
@@ -5061,17 +5044,6 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  secret-manager-client@0.0.6:
-    dependencies:
-      secret-manager-crypto-utils: 0.1.1
-      thingy-byte-utils: 0.0.7
-      thingy-network-base: 0.0.4
-
-  secret-manager-crypto-utils@0.1.1:
-    dependencies:
-      '@noble/ed25519': 1.7.3
-      thingy-byte-utils: 0.0.7
-
   secret-manager-crypto-utils@0.3.1:
     dependencies:
       '@noble/ed25519': 2.1.0
@@ -5419,8 +5391,6 @@ snapshots:
       meow: 10.1.5
       mustache: 4.2.0
 
-  thingy-byte-utils@0.0.7: {}
-
   thingy-byte-utils@0.0.8: {}
 
   thingy-crypto-node@0.0.2:
@@ -5435,8 +5405,6 @@ snapshots:
       inquirer: 8.2.6
       meow: 10.1.5
       mustache: 4.2.0
-
-  thingy-network-base@0.0.4: {}
 
   thingy-post-rpc-client@0.0.6:
     dependencies:
@@ -5626,6 +5594,8 @@ snapshots:
       browserslist: 4.24.2
       escalade: 3.2.0
       picocolors: 1.1.1
+
+  uplot@1.6.31: {}
 
   upper-case@1.1.3: {}
 
